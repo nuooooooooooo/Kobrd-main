@@ -8,7 +8,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>How to install a korean keyboard</title>
+
+    <title>Kobrd - Learn to type in Korean</title>
     <script
       src="https://kit.fontawesome.com/459c5968b0.js"
       crossorigin="anonymous"
@@ -17,109 +18,159 @@
   <body>
     <nav class="page--padding">
       <div class="nav__menu row container">
-        <img class="nav__logo" src="./img/koboard-logo.png" alt="logo" />
+        <img
+          class="nav__logo"
+          id="logo"
+          src="./img/kobrd-logo.png"
+          alt="logo"
+        />
 
-        <ul class="nav__list row">
-          <li class="nav__item">
-            <a class="nav__link" href="./index.html"
-              ><span class="current-page">Home</span></a
-            >
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="about.html">About</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="FAQ.html">FAQ</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+        <div class="nav-wrapper">
+          <div class="hide-nav">
+            <div class="navigation">
+              <ul class="nav__list row">
+                <li class="nav__item">
+                  <a class="nav__link current-page--hover" href="./index.html"
+                    ><span class="current-page"
+                      ><i class="fas fa-home" id="home"></i></span
+                  ></a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="about.html">About</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="FAQ.html">FAQ</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="nav-toggler"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
     <div class="hero">
       <div class="row container page--padding">
-        <div class="hero__content">
+        <div class="hero__content row">
           <h1 class="hero__title">
-            Learn how to use a korean keyboard
+            Learn to type like a native
           </h1>
-          <p class="hero__subtitle">It is easier than you think</p>
+          <p class="hero__subtitle">
+            <strong>Kobrd</strong> teaches you how to type like a native Korean
+            speaker, the fun way.
+          </p>
           <a href="#" class="btn">Get started now</a>
         </div>
         <img
           class="hero__img"
-          src="./img/vector-collages-168.png"
+          src="./img/example-16.svg"
           alt="Person typing on a computer"
         />
       </div>
     </div>
-    <main class="container page--padding">
-      <h2 class="main__title">
-        Typing on a korean keyboard, it's easier than you think.
-      </h2>
-      <p>
-        Have you recently started to learn Korean but find yourself having to
-        look up where a certain hangeul is on your computer keyboard every time
-        you want write a sentence? Fret not! This is a problem every learner of
-        the Korean language is bound to struggle with once they start wanting to
-        type on a computer keyboard - myself included.
-      </p>
-      <p>
-        This is why I created this application, Name. With it, you'll start
-        learning Korean dactylography from the beginning, the same way you did
-        when you first learned how to type on a QWERTY keyboard. And you know
-        what's more? You can learn it all for FREE!
-      </p>
-      <section class="specs">
-        <div class="col-1">
-          <i class="fas fa-hand-holding-usd"></i>
-          <h3>It's free</h3>
-          <p>
-            Yes! You read it right, this application was made for free, because
-            as a learner myself, I struggled for some time before getting the
-            hang of it. And I think no one should have to struggle anymore.
-            After all, it's 2020! This should have been done a long time ago.
-          </p>
-        </div>
-        <div class="col-2">
-          <i class="fas fa-gamepad"></i>
-          <h3>It's gamified</h3>
-          <p>
-            While learning can be fun, it can sometimes be hard to keep
-            motivated after you do the same thing for a while. This is why I
-            included a leaderboard and several other features to make learning
-            how to type fun, as it should always be.
-          </p>
-        </div>
-        <div class="col-3">
-          <i class="fas fa-chalkboard-teacher"></i>
-          <h3>Learn at your own pace</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consectetur totam architecto, cupiditate fuga provident mollitia
-            unde deserunt minus aliquam repellendus. Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Maxime, ullam?
-          </p>
-        </div>
-      </section>
-      <section class="">
-        <h2 class="">Sill have questions ?</h2>
-        <p>
-          You want to learn how to type with a korean keyboard, but don't know
-          where to start? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsam provident praesentium qui distinctio voluptates optio.
-        </p>
-        <a href="./FAQ.html">Take a look at our FAQ</a>
-      </section>
-    </main>
-    <footer class="page--padding">
+
+    <div class="wave-container">
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill-opacity="1"
+          d="M0,288L48,256C96,224,192,160,288,133.3C384,107,480,117,576,112C672,107,768,85,864,80C960,75,1056,85,1152,106.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <main class="home-main">
       <div class="container">
+        <div class="main-content page--padding">
+          <h2 class="main__title">
+            Typing on a Korean keyboard, it's easier than you think.
+          </h2>
+          <p class="main__text">
+            Have you recently started to learn Korean but find yourself having
+            to constantly look up certain hangeul placements? You are not alone!
+            In fact, I daresay this is a problem most learners of the Korean
+            language struggle with once they start typing on a computer keyboard
+            &mdash; myself included.
+          </p>
+          <p class="main__text">
+            But fret not! With Kobrd, you'll start learning Korean dactylography
+            from the beginning, the same way you did when you first learned how
+            to type on a QWERTY keyboard. Icing on the cake: You can learn it
+            all for FREE!
+          </p>
+        </div>
+        <section class="specs row page--padding">
+          <div class="cols">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3 class="specs__title">It's free</h3>
+            <p>
+              Yes! You read it right, this application is
+              <strong>available for free</strong>, because as a learner myself,
+              I believe learning how to type in Korean is an essential step to
+              improve one's mastery in the language. So no more excuses, start
+              learning today!
+            </p>
+          </div>
+          <div class="cols">
+            <i class="fas fa-gamepad"></i>
+            <h3 class="specs__title">It's gamified</h3>
+            <p>
+              While learning can be fun, it's sometimes hard to keep motivated
+              if you keep on doing the same thing for a while. This is why I
+              included a
+              <strong>scoring system </strong> as well as a
+              <strong>leaderboard</strong>.
+            </p>
+          </div>
+          <div class="cols">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3 class="specs__title">Set your pace</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur totam architecto, cupiditate fuga provident mollitia
+              unde deserunt minus aliquam repellendus. Lorem ipsum dolor, sit
+              amet consectetur adipisicing elit. Maxime, ullam?
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="wave-container">
+      <svg
+        class="wave--inverted"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill-opacity="1"
+          d="M0,0L40,32C80,64,160,128,240,144C320,160,400,128,480,144C560,160,640,224,720,240C800,256,880,224,960,213.3C1040,203,1120,213,1200,186.7C1280,160,1360,96,1400,64L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+    </div>
+    <section class="cta container">
+      <h2 class="">Sill have questions ?</h2>
+      <p>
+        You want to learn how to type with a korean keyboard, but don't know
+        where to start? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsam provident praesentium qui distinctio voluptates optio.
+      </p>
+      <a class="cta__link" href="./FAQ.html"
+        ><i class="fas fa-arrow-circle-right"> </i>Take a look at our FAQ</a
+      >
+    </section>
+
+    <footer class="page--padding">
+      <div class="container row">
         <img
           src="./img/default-monochrome-white.svg"
           class="footer__logo"
           alt=""
         />
-        <ul class="footer__list">
+        <ul class="footer__list row">
           <li class="footer__item">
             <a class="footer__link" href="./index.html">Home</a>
           </li>
@@ -135,7 +186,9 @@
         </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
-
+<!-- credits -->
 <!-- https://icons8.com -->
+<!-- https://codepen.io/amaury-diallo/pen/rbKEoB -->
