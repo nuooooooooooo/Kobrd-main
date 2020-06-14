@@ -401,7 +401,7 @@ footer {
 }
 
 .about__text {
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 /* js toggle */
