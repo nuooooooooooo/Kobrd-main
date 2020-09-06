@@ -172,6 +172,7 @@ nav {
 .hero__content {
   flex-direction: column;
   align-items: center;
+  font-size: 1.25rem;
   min-height: 250px;
   justify-content: space-between;
 }
@@ -232,10 +233,15 @@ main,
   margin-top: 1.5em;
 }
 
+.main__text {
+  font-size: 1.125rem;
+}
+
 .cols {
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 1em;
+  padding: 1em 2em 2em 2em;
   border-radius: 5px;
+  line-height: 1.7;
   margin: auto;
   margin-bottom: 2em;
   box-shadow: 0 5px 10px hsl(217, 90%, 80%);
@@ -258,6 +264,7 @@ i.fas {
 
 .cta {
   padding-bottom: 3em;
+  font-size: 1.25rem;
   background-color: white;
 }
 
